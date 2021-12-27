@@ -1,0 +1,200 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+body nav {
+  height: 8vh;
+  background-color: #ffffff;
+  padding: 0px 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-shadow: 0px 0px 10px 10px #e2e2e2;
+          box-shadow: 0px 0px 10px 10px #e2e2e2;
+}
+
+body nav .logo {
+  width: 90%;
+}
+
+body nav .logo img {
+  margin: 2vh 5vw;
+  height: 4vh;
+}
+
+body nav button {
+  margin: 2vh 0vw;
+  height: 4vh;
+  background-color: transparent;
+  padding: 0px 3%;
+  border-radius: 5%;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body nav button img {
+  height: 30px;
+}
+
+body nav button p {
+  margin: 10px;
+}
+
+body main {
+  margin-top: 5vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  background-color: fff;
+  text-align: center;
+}
+
+body main h1 {
+  font-size: 20px;
+}
+
+body main p {
+  margin-top: 3%;
+}
+
+body main p a {
+  color: #882464;
+  text-decoration: none;
+}
+
+body main p a:hover {
+  text-decoration: underline;
+}
+
+body main form {
+  width: 90%;
+  margin: 0% 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+body main form #email {
+  padding: 10px;
+  margin: 10% 0%;
+  background-color: rgba(0, 0, 0, 0.039);
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  min-height: 3.5rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: #000;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  text-align: left;
+  font-size: inherit;
+  font-weight: 400;
+  line-height: 1.125;
+}
+
+body main form #password {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.039);
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  min-height: 3.5rem;
+  border-top: none;
+  border-left: none;
+  border-bottom-color: #000;
+  border-right: none;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  text-align: left;
+  font-size: inherit;
+  font-weight: 400;
+  line-height: 1.125;
+}
+
+body main button {
+  margin-top: 10%;
+  height: 6vh;
+  border: none;
+  border-radius: .5rem;
+  background-color: #882464;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+body main a {
+  margin-top: 5%;
+  text-decoration: none;
+  color: #882464;
+}
+
+body main a:hover {
+  text-decoration: underline;
+}
+
+body main .other-links {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  color: #882464;
+  font-size: 14px;
+}
+
+body main .other-links a {
+  margin: 0% 10%;
+}
+
+body footer {
+  padding: 0vh 5vw;
+  font-size: 10px;
+}
+/*# sourceMappingURL=style.css.map */
